@@ -1,0 +1,560 @@
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-eduiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>portfolia Website Design</title>
+    <script>
+        function DownloadCV(){
+            window.open("file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/IE/OP5WJFSK/null[1]")
+        }
+    </script>
+   <!-- css file -->
+   <link rel ="stylesheet" href="style.css">
+   <link rel ="stylesheet" href="utlits.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><span>Harshada</span> Gawade</div>
+                <div class="nav-links">
+                   <ul class="flex f-w-600">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                   </ul>
+                </div>
+                <button class="btn">Hire Me</button>
+            </div>
+            <!--content-->
+            <div class="content flex align-center">
+                <!--left section-->
+                 <div class="left flex2">
+                    <h4 class="uppercase letter-spacing2">I'm  Harshada</h4>
+                    <h2 class="my-t-10 uppercase letter-spacing2">Web Designer</h2>
+                    <p class="my-t-10">I am a professional Web Designer</p><br><br>
+                    <a href="file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/IE/1U3UDD9A/null[1].pdf">DownloadCV</a>
+                   
+                 </div>
+                 <!--right section-->
+                 <div class="right flex3 ">
+                    <img src ="https://media.licdn.com/dms/image/D4D03AQG0OJJFveT0Pw/profile-displayphoto-shrink_800_800/0/1693889137588?e=2147483647&v=beta&t=t2T14DnDVKObC9nTRS9xPF5SdcDVNS6cD6I5GBebPa8">
+                    <div class="color-box align-right"></div>
+
+
+                 </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="profile">
+           <h2>My Profile</h2>
+           <p>Hello Guys!!</p>
+           <p>My name is <b>Harshada Gawade</b> and i am from Pune,Maharashtra(India).I am a Web Developer and App Developer and in my free time make youtube videos..i like to share my knowlwdge with our IT community.If you like my efforts then please support me.</p>
+           
+           <a href="c:\Users\Admin\Documents\resume.pdf">Read More</a>
+        </div>
+        
+        <div class="skills">
+            <h2>My Skills</h2>
+            <div>
+                <label for="file">HTML:</label>
+                <progress id="file" value="90" max="100"> 90% </progress>
+            </div>
+
+            <div>
+                <label for="file">CSS:</label>
+                <progress id="file" value="90" max="100"> 70% </progress>
+            </div>
+
+            <div>
+                <label for="file">JavaScript:</label>
+                <progress id="file" value="90" max="100"> 80% </progress>
+            </div>
+
+            <div>
+                <label for="file">C++:</label>
+                <progress id="file" value="90" max="100"> 90% </progress>
+            </div>
+        </div>
+        <div class="edu">
+            <h2>Education</h2>
+            <p>Shivnagar Vidya Prasark Mandal College Of Engineering,Malegoan.
+                <br><br>
+                T.E - Computer Engineering | CGPA:8.14/10.00 <br><br>
+                ______________________________________________________
+                <br><br>
+                Tuljaram Chaturchand College,Baramati
+                <br><br>
+                11th 12th | Autonomous | percentage:87.86%<br><br>
+                ______________________________________________________<br><br>
+                R.N.Agarwal Technical Highschool and Junior College,Baramati<br><br>
+                10th | MSBSHSE | Percentage:81.60
+
+               
+            </p>
+        </div>
+        <div class="lang">
+            <h2>Languages</h2>
+            <ul>
+                                    
+                IN WEB DESIGNING
+                <li>HTML / CSS</li>
+                <li>JAVASCRIPT </li>
+            </ul>
+           
+            <ul>
+                IN WEB DEVELOPEMENT
+                <li>PHP</li>
+                <li>MYSQL</li>
+                <li>NODE S</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Our Contact</h2>
+            <div>
+                <p>
+                    <i class="fa fa-map"></i>
+                    ward no 5 Baramati
+                </p>
+                <p>
+                    <i class="fa fa-phone"></i>
+                    9054676567
+                </p>
+                <p>
+                    <i class="fa fa-envelope"></i>
+                    abc@gmail.com
+                    
+                </p>
+                <p>
+                    <i class="fa fa-globe"></i>
+                    mywebsite.com
+                </p>
+            </div>
+        </div>
+        <div class="exp">
+            <h2>Experience</h2>
+            <p> Internship | CodSoft | Web Deveplopement | 1-month<br><br>
+                projects | Student Management System | Weather Monitoring System<br><br>
+                Certificates | Java programming | python
+            </p>
+        </div>
+        <footer>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            
+
+            <h3>Developed by HARSHADA GAWADE</h3>
+        </footer>
+    </div>
+    
+</body>
+</html>
+
+
+*style.cssP*
+
+@import url('https://fonts.googleeapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppings:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+
+}
+:root
+{
+    --primary-color:#fff;
+    --primary-shade:#f7f5f2;
+    --secondary-color:#000;
+    --secondary-shade:#4b4c4c;
+    --red-color:#d40004;
+    --red-shade:#b2001e;
+    --accent-color:#ffee63;
+}
+
+ul li
+{
+    list-style:none;
+}
+
+a
+{
+    text-decoration:none;
+}
+/* header section*/
+header
+{
+    background:rgb(2,0,36);
+    background:linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(50,50,51,1)35%,rgba(0,212,255,1)100%);
+    background:linear-gradient(to right,#040404,#242424,#656565);
+    color:var(--primary-color);
+
+}
+.nav-bar
+{
+    padding:30px 0;
+}
+
+span{
+    color:var(--red-color);
+}
+
+ul li a{
+    margin:0 10px;
+    padding:0 5px;
+    color:var(--accent-color);
+    font-size: 18px;
+    cursor:pointer;
+    position:relative;
+}
+
+ul li a::before{
+    content: '';
+    width:0;
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    height:2px;
+    background-color:var(--primary-color);
+    transition:0.6s;
+}
+
+ul li a:hover::before
+{
+    width:100%;
+
+}
+.btn
+{
+    width:100px;
+    height:40px;
+    border-radius:8px;
+    background-color:var(--red-color);
+    color:var(--primary-color);
+    outline:none;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+    padding:0 5px;
+    font-weight:500;
+}
+
+.btn:hover
+{
+    background-color:var(--red-shade);
+    color:var(--primary-shade);
+    border:2px solid avr var(--red-color);
+    
+
+}
+
+
+
+
+.content
+{
+    height:90vh;
+    position:relative;
+}
+
+.left  a{
+    
+    width:100px;
+    height:40px;
+    border-radius:8px;
+    background-color:var(--red-color);
+    color:var(--primary-color);
+    outline:none;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+    padding:8px 5px;
+    font-weight:500;
+}
+
+
+.right img{
+    width:75%;
+    height:40%;
+    position:relative;
+    align-items:right;
+   
+    left:160px;
+    z-index:400;
+    cursor:pointer;
+    transition:0.3s;
+    padding:100px 100px;
+}
+
+.right img:hover
+{
+    filter:drop-shadow(10px 5 20px burlywood);
+
+
+}
+
+h4,p{
+    font-family:'poppings',sans-serif;
+}
+.color-box
+{
+    width:390px;
+    height:380px;
+    border:5px solid red;
+    transform:rotate(45deg);
+    position:absolute;
+    top:70px;
+    right:150px;
+
+}
+
+.container
+{
+    width:100%;
+    min-height:150vh;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 0.8fr 0.2fr;
+    gap:1rem;
+    grid-template-areas:"profile profile skills skills"
+                        "edu edu lang lang"
+                        "contact contact exp exp"
+                        "footer footer footer footer";
+    padding:2rem
+    
+}
+
+.profile
+{
+    background:rgb(41, 37, 37);
+    color:white;
+    padding:2rem;
+    grid-area:profile;
+}
+
+.skills
+{
+    background:rgb(194, 18, 18);
+    color:white;
+    padding:2rem;
+    grid-area:skills;
+}
+
+.edu
+{
+    background:rgb(194, 18, 18);
+    color:white;
+    padding:2rem;
+    grid-area:edu;
+}
+
+.lang
+{
+    background:rgb(41, 37, 37);
+    color:white;
+    padding:2rem;
+    grid-area:lang;
+}
+
+.contact
+{
+    background:rgb(41, 37, 37);
+    color:white;
+    padding:2rem;
+    grid-area:contact;
+}
+
+.exp
+{
+    background:rgb(194, 18, 18);
+    color:white;
+    padding:2rem;
+    grid-area:exp;
+}
+
+footer{
+    color:white;
+    background:rgb(194, 18, 18);
+    padding:2rem;
+    grid-area:footer;
+}
+
+h2{
+    margin-bottom:1rem;
+}
+.profile{
+    padding:1.5rem 2rem;
+    text-align:justify;
+    line-height:2.2rem;
+}
+
+.profile a{
+    text-decoration:none;
+    padding:0.5rem 0.7rem;
+    background:red;
+    color:white;
+}
+
+.skills div{
+    width:100%;
+    padding:0.5rem 1rem;
+
+}
+
+.skills div progress[value]{
+    width:100%;height:1rem;
+
+}
+
+.edu h2{
+    Letter-spacing:0.1rem;
+}
+
+.lang ul{
+    margin:1rem 0;
+    padding:0.3rem 1rem;
+
+}
+
+.lang ul li{
+    font-size:1rem;
+    cursor:pointer;
+}
+.contact div i{
+    margin-right:02rem;
+
+}
+
+.contact p{
+   margin:1rem 0;
+   cursor:pointer;
+
+}
+
+.exp p{
+    padding:0.5rem 0.5rem;
+    
+    text-align:justify;
+    Line-height:2.2rem;
+}
+
+footer i{
+    background:white;
+    color:black;
+    padding:0.5rem;
+    margin:1rem 0.2rem;
+    border-radius:50%;
+    transition:0.4s;
+
+
+}
+
+footer i:hover{
+    background:#0a3d62;
+    color:white;
+    cursor:pointer;
+
+
+}
+
+footer{
+    text-align:center;
+}
+
+@media only screen and (max-width:770px){
+    .container{
+        grid-template-columns:1fr;
+        grid-template-rows:0.8fr 0.6fr 1fr 0.6fr 0.5fr 0.8fr 0.1fr;
+        grid-template-areas:"profile"
+                            "skills"
+                            "edu"
+                            "lang"
+                            "contact"
+                            "exp"
+                            "footer";
+    }
+}
+
+
+*utlits.css*
+
+.layout
+{
+    width:80%;
+    margin:0 auto;
+}
+
+
+.flex
+{
+    display:flex;
+}
+
+.space-between
+{
+    justify-content:space-between;
+}
+
+.align-center
+{
+    align-items:center;
+}
+
+.justify-center
+{
+    justify-content:center;
+}
+
+.uppercase
+{
+    text-transform:uppercase;
+}
+
+.f-w-500
+{
+    font-weight:500;
+}
+
+.f-w-600
+{
+    font-weight:600;
+}
+
+.f-w-700
+{
+    font-weight:700;
+}
+.letter-spacing2
+{
+    letter-spacing:2
+}
+
+.btn{
+    width:140px;
+}
+
+.my-t-10
+{
+    margin-top:10px;
+}
+
+.my-t-20
+{
+    margin-top:20px;
+}
